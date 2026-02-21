@@ -2,12 +2,6 @@
 
 import { useTheme } from './theme-provider';
 import './globals.css';
-import type { Metadata } from 'next';
-
-export const metadata: Metadata = {
-  title: 'Jarvis App',
-  description: 'Welcome to Jarvis',
-};
 
 export default function Home() {
   const { theme, toggleTheme } = useTheme();
